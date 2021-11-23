@@ -29,7 +29,7 @@ int main(int argc, char *argv[]) {
         seconds = timer;
     }
 
-    while (seconds >= 0) {
+    while (seconds > 0) {
         seconds--;
         h = seconds / 60 / 60;
         m = seconds / 60 % 60;
@@ -40,5 +40,5 @@ int main(int argc, char *argv[]) {
         sleep(1);
         system("clear");
     }
-    free(input);
+    system("aplay sound.wav");
 }
