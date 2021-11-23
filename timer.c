@@ -40,4 +40,5 @@ int main(int argc, char *argv[]) {
         system("clear");
     }
     system("aplay sound.wav");
+    system("aplay sound.wav");
 }
